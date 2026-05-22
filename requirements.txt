@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+tqdm
+scikit-learn
+nltk
+xgboost==1.7.6
+Pillow==9.5.0
+wordcloud
