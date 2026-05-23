@@ -1,49 +1,64 @@
-🐦 Twitter Sentiment Analysis
-This project analyzes customer service tweets using Natural Language Processing (NLP) and machine learning to classify text into positive, negative, and neutral sentiments — helping understand the overall mood and tone behind Twitter interactions.
+# 🐦 Twitter Sentiment Analysis
 
-📂 Dataset
+This project applies Natural Language Processing (NLP) and machine learning techniques to classify Twitter texts into **positive**, **negative**, and **neutral** sentiments. It explores how textual data can be analyzed to uncover emotional tone and opinion patterns at scale.
 
-Source: Twitter Customer Service Dataset
-Contains real customer service tweets labeled across three sentiment polarities
+---
 
+## 📂 Dataset
 
-🚀 Features
+- Source: [Twitter Customer Service Dataset](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-GPXX0DYDEN/twitterv3.csv)
+- Contains real customer service tweets labeled across three sentiment polarities
 
-Loads and explores tweet data for sentiment distribution
-Preprocesses text using tokenization, stopword removal, and negation handling
-Applies VADER for rule-based sentiment scoring
-Trains XGBoost and Logistic Regression classifiers
-Tunes hyperparameters using GridSearchCV and RandomizedSearchCV
-Evaluates models with accuracy, classification report, and confusion matrix
-Visualizes results with word clouds and bar charts
+---
 
+## 🚀 Features
 
-🛠️ Tech Stack
+- Loads and explores tweet data for sentiment distribution
+- Preprocesses text using tokenization, stopword removal, and negation handling
+- Applies VADER for rule-based sentiment scoring
+- Trains XGBoost and Logistic Regression classifiers
+- Tunes hyperparameters using GridSearchCV and RandomizedSearchCV
+- Evaluates models with accuracy, classification report, and confusion matrix
+- Visualizes results with word clouds and bar charts
 
-Language: Python
-NLP: NLTK, VADER, TF-IDF, CountVectorizer
-Machine Learning: XGBoost, Logistic Regression
-Visualization: Matplotlib, Seaborn, WordCloud
-Environment: Jupyter Notebook / VS Code
+---
 
+## 🛠️ Tech Stack
 
-📝 How to Run
+- **Language:** Python
+- **NLP:** NLTK, VADER, TF-IDF, CountVectorizer
+- **Machine Learning:** XGBoost, Logistic Regression
+- **Visualization:** Matplotlib, Seaborn, WordCloud
+- **Environment:** Jupyter Notebook / VS Code
 
-Clone this repo
+---
 
-bashgit clone https://github.com/your-username/twitter-sentiment-analysis
+## 📝 How to Run
+
+1. Clone this repo
+\```bash
+git clone https://github.com/your-username/twitter-sentiment-analysis
 cd twitter-sentiment-analysis
+\```
 
-Install requirements
+2. Install requirements
+\```bash
+pip install -r requirements.txt
+\```
 
-bashpip install -r requirements.txt
+3. Open the notebook
+\```bash
+jupyter notebook
+\```
 
-Open the notebook and run all cells
+---
 
-bashjupyter notebook
+## 📊 Example Outputs
 
-📊 Example Outputs
+- Sentiment distribution across positive, negative, and neutral classes
+- Word clouds showing most frequent words per sentiment category
+- Model accuracy and classification report for each algorithm
 
-Sentiment distribution across positive, negative, and neutral classes
-Word clouds showing most frequent words per sentiment category
-Model accuracy and classification report for each algorithm
+---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/twitter-sentiment-analysis/blob/main/sentiment%20analysis.ipynb)
